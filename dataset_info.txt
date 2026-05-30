@@ -1,8 +1,15 @@
 Dataset: LIDC-IDRI
 Source: TCIA
 Preprocessing:
-DICOM CT images converted into PNG format and organized into train, validation, and test subsets.
-Storage:
-Google Drive (used during Google Colab execution)
+DICOM images converted into PNG format
+
+Folder Structure:
+train/
+valid/
+test/
+
+Execution Environment:
+Google Colab + Google Drive
+
 Dataset Access:
 https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI
